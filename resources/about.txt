@@ -1,0 +1,55 @@
+FrontWars
+=========
+
+FrontWars is an open-source project based on the OpenFrontIO project originally created by **OpenFront LLC**,  
+with extensive modifications and ongoing development by **VexxusArts Ltd**.
+
+Repositories
+------------
+- Original project: https://github.com/openfrontio/OpenFrontIO  
+- Maintained fork: https://github.com/Elitis/FrontWars
+
+Licenses
+--------
+FrontWars is a derivative work that combines components under multiple open-source and asset licenses:
+
+- **MIT License**  
+  Applies to portions of the original OpenFrontIO codebase except where otherwise noted.  
+  © 2024 WarFront.io Team, © 2024 OpenFront.io Team, © 2025 FrontWars.io Team.  
+  The MIT License allows use, modification, and distribution with attribution.  
+  Full text: https://opensource.org/licenses/MIT
+
+- **GNU Affero General Public License v3.0 (AGPL-3.0)**  
+  Applies to the `/client` directory as of commit `1d00f1031a3ac65f3c44b187e9b15c6d2b7d063a` (October 2025),  
+  and to all derivative client code produced by VexxusArts Ltd.  
+  The AGPL-3.0 extends the standard GPL to ensure that any network-deployed version of the software  
+  must make its complete source code available to users.  
+  Full text: https://www.gnu.org/licenses/agpl-3.0.html
+
+- **Creative Commons BY-NC 4.0 with Commercial Exemption for VexxusArts Ltd**  
+  Applies to any assets located in `/resources/non-commercial/`.  
+  These assets may be used non-commercially by the public under the terms of CC BY-NC 4.0,  
+  while **VexxusArts Ltd** retains a permanent commercial use exemption allowing unrestricted use  
+  and monetization within FrontWars.  
+  Full text: https://creativecommons.org/licenses/by-nc/4.0/
+
+- **Game Assets (Replaced)**  
+  All previously non-commercial or proprietary assets from OpenFrontIO have been  
+  **removed and replaced** with new, original assets created by **3AM Experiences LLC**  
+  and licensed exclusively to **VexxusArts Ltd** for use in FrontWars.  
+  These new assets are not subject to the original OpenFrontIO non-commercial restrictions.
+
+Attribution
+-----------
+- Original authors: OpenFront LLC and contributors to the OpenFrontIO project  
+- MIT-licensed portions: WarFront.io Team, OpenFront.io Team  
+- AGPL-licensed client code and modifications: VexxusArts Ltd (https://frontwars.io)  
+- Replacement assets: Created by 3AM Experiences LLC, licensed to VexxusArts Ltd  
+- Retained open assets: Derived from OpenFrontIO `/resources` under CC BY-SA 4.0 where applicable
+
+Notes
+-----
+- All non-commercial (CC BY-NC) or proprietary OpenFrontIO assets have been replaced.  
+- The complete corresponding source code is available at:  
+  https://github.com/Elitis/FrontWars
+
