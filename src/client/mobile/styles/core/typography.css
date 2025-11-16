@@ -1,0 +1,12 @@
+.t-link {
+  color: #ffffffb3;
+  transition: var(--transition);
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.t-text-white {
+  color: #ffffffb3;
+}
