@@ -1,0 +1,127 @@
+License Information for FrontWars Project
+================================================
+
+Overview
+--------
+As of commit 1d00f1031a3ac65f3c44b187e9b15c6d2b7d063a (October 2025),
+the "/client" directory of the FrontWars project has been relicensed from
+the GPL3 License to the GNU Affero General Public License (AGPL) version 3.0.
+All other parts of the project remain under the MIT License unless otherwise specified.
+Assets in the "/resources/non-commercial/" directory (if any) are licensed under
+Creative Commons BY-NC 4.0 with a commercial exemption for VexxusArts Ltd.
+
+------------------------------------------------
+MIT License
+------------------------------------------------
+Applies to: All parts of the FrontWars project except the "/client" directory
+(as of commit 1d00f1031a3ac65f3c44b187e9b15c6d2b7d063a) and the
+"/resources/non-commercial/" directory.
+
+MIT License
+
+Copyright (c) 2025 FrontWars.io
+Portions Copyright (c) 2025 WarFront.io Team
+Portions Copyright (c) 2025 OpenFront.io Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------
+GNU Affero General Public License (AGPL) v3.0
+------------------------------------------------
+Applies to: The "/client" directory (as of commit 1d00f1031a3ac65f3c44b187e9b15c6d2b7d063a).
+
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (c) 2025 VexxusArts Ltd
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see: https://www.gnu.org/licenses/agpl-3.0.txt
+
+(Note: The full text of the AGPL v3.0 license is also provided in
+"/client/LICENSE-AGPL.txt".)
+
+------------------------------------------------
+Creative Commons BY-NC 4.0 with Commercial Exemption
+------------------------------------------------
+Applies to: Assets in the "/resources/non-commercial/" directory.
+
+Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)
+WITH COMMERCIAL EXEMPTION FOR VEXXUSARTS LTD
+
+Copyright (c) 2025
+FrontWars.io Team and Contributors
+VexxusArts Ltd
+
+This work is licensed under CC BY-NC 4.0 with the following exception:
+
+VexxusArts Ltd is granted unlimited commercial use rights for all purposes.
+
+For all other parties, standard CC BY-NC 4.0 terms apply, which means:
+- Attribution: You must give appropriate credit.
+- NonCommercial: You may not use the material for commercial purposes.
+- No additional restrictions: You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license permits.
+
+Full CC BY-NC 4.0 license text:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+------------------------------------------------
+Important Notes
+------------------------------------------------
+- MIT License: A permissive license that allows users to use, copy, modify,
+  merge, publish, distribute, sublicense, and/or sell copies of the software
+  with minimal restrictions, provided the copyright and permission notices
+  are included.
+
+- AGPL v3.0: A copyleft license that requires any derivative works or
+  distributions of the "/client" code to also be licensed under AGPL v3.0 or
+  later, ensuring that source code remains open and accessible for any
+  network-based deployments (AGPL §13).
+
+- CC BY-NC 4.0 with Exemption: Protects assets from commercial exploitation
+  while allowing VexxusArts Ltd full commercial rights. Community use for
+  non-commercial purposes is encouraged.
+
+- Mixed Licensing: If you combine code from "/client" (AGPL) with other parts
+  of the project (MIT), AGPL's copyleft may affect the combined work. Consult
+  legal counsel for specific guidance.
+
+- Contributions:
+  * For contributions to "/client", contributors must agree to AGPL v3.0 terms.
+  * For contributions to "/resources/non-commercial/", contributors grant CC BY-NC
+    rights to the public and commercial rights to VexxusArts Ltd as specified.
+  * For contributions to other directories, standard MIT terms apply.
+
+------------------------------------------------
+Contributing / Contact
+------------------------------------------------
+Please see "CONTRIBUTING.md" for details on licensing requirements by directory.
+
+
+Last updated: October 2025
