@@ -11,6 +11,26 @@ import { generateID } from "../core/Util";
 import { getServerConfigFromServer } from "../core/configuration/ConfigLoader";
 import http from "http";
 import { logger } from "./Logger";
+import fs from "fs";
+// Middleware to log requested static paths and whether they exist on disk
+app.use((req, res, next) => {
+  try {
+    const urlPath = decodeURIComponent(req.path.replace(/\?.*$/, ""));
+    const filePath = path.join(__dirname, "../../static", urlPath);
+    const exists = fs.existsSync(filePath);
+    if (!exists) {
+      log.warn(`Static miss: ${req.method} ${req.path} -> ${filePath}`);
+    } else {
+      log.debug(`Static hit: ${req.method} ${req.path} -> ${filePath}`);
+    }
+  } catch (e) {
+    // If decoding or path join fails, just log at debug level
+    log.debug(`Static path check error for ${req.path}: ${(e as Error).message}`);
+  }
+  next();
+});
+
+app.use(express.static(path.join(__dirname, "../../static"), {
 import path from "path";
 import rateLimit from "express-rate-limit";
 
