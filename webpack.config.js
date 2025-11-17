@@ -106,7 +106,7 @@ export default async (env, argv) => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: "./src/client/index.html",
+        template: "./src/client/desktop/index.html",
         filename: "index.html",
         // Add optimization for HTML
         minify: isProduction
